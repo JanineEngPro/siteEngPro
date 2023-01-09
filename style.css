@@ -1,0 +1,1479 @@
+
+body{ 
+	font-family: 'Eczar', serif;
+}
+strong{
+	font-weight: bold;
+}
+
+i {
+	font-style: italic;
+}
+.formatoHref{
+	text-decoration: none;
+	color:#000000;
+
+}
+.obsDeErro{
+	font-size: 30px;
+	color: red;
+}
+.titlePadraoCanto{
+	margin: 1em;
+	font-family: 'Montez', cursive;
+	font-size:36px;
+	font-weight: bold;
+}
+.titlePadraoCanto:before{
+	content:"➪"
+}
+.bottomVoltar{
+	font-size: 18px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 0.2em 0.5em;
+	width: 19%;
+	background-color: #d4e9ed;
+	text-decoration: none;
+	color:#000000;
+	margin: 5em 3.2em;
+}
+.bottomVoltar:hover{
+	font-size: 20px;
+	background-color:#c2c2c2;
+}
+ 
+/* ####### HEADER ####### */
+#logoTopSite {
+	width: 45%;
+	height:150px;
+	margin:0 0;
+} 
+.logoRight{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalhoPricipal .caixaTop{
+	display: flex;
+	align-items: flex-start;
+    justify-content: space-evenly;
+	padding: 15px 15px;
+	border-color:teal;
+	border-width:4px;
+	border-style: solid;
+	border-radius:10px;
+}
+ 
+.navCabecalho{
+	display: flex;
+	margin:20px auto;
+	padding: 11px;
+	border-color: #808080;
+	border-width:3px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+
+.liNavCAbecalho{
+	padding: 0 15px;
+}
+
+.aNavCabecalho {
+	text-transform: uppercase;
+	color:#000000;
+	font-weight: bold;
+	font-size:18px;
+	text-decoration:none; 
+}
+nav a:hover {
+	color:#177653;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+header p {
+	padding: 15px;
+	font-family: 'Montez', cursive;
+	font-size:34px;
+	text-decoration:none;
+	font-weight: bold;
+    color:#191970;
+}
+/* ####### HOME ####### HOME ####### HOME ####### HOME ####### HOME ####### HOME ####### */
+
+/* ### HOME BANNER ### */
+.bannerEngReTec{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+	margin-top:20px;	
+}
+
+#imgHome{
+	width:65%;
+}
+
+.menuEngReTec {
+	width: 42%;
+	font-size: 34px;
+	font-family: 'Montez', cursive;
+	background: teal;
+	text-align: center;
+}
+
+.menuEngReTec a :before {
+	content:"➪"
+}
+
+.menuEngReTec:hover{
+	background:#286181;
+	font-size: 35px;
+}
+.menuEngReTec:active{
+	background: #191970;
+}
+
+.linhaEngReTec { 
+	color:#ffffff;
+	font-size: 36px;
+	text-decoration: none;
+	margin: 1em 0 ;
+}
+.titleEngReTec{
+	font-weight: bold;
+}
+
+.linhaEngReTec a:hover {
+	color:#191970;
+	text-decoration: underline;
+	font-size: 40px;
+}
+.liE{
+	color:#000000;
+	text-decoration: none;
+	margin: 0.5em 0 ;
+}
+
+/* ### HOME PROPÓSITO ### */
+
+.sectionProposito {
+	display: flex;
+	flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 5em 0;
+    align-items: center;
+}
+
+.imgTime{
+	width:30%;
+}
+
+#imagemEquipeHome{
+	width: 100%;
+}
+
+.titleMss1{
+	font-size: 50px;
+	font-family: 'Montez', cursive;
+	text-align: center;
+	margin-bottom: 0.8em;
+	text-decoration: bold;
+}
+
+/* ### HOME MISSÃO ### */
+.titleMss{
+	font-size: 70px;
+	font-family: 'Montez', cursive;
+	color:teal;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.frasePrincipal {
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 34px;
+	right:100px;
+	top:18em; 
+	width: 600px;
+	height:315px;
+    padding:20px;
+    font-size:28px;
+    border-color: #286181;
+	border-width:4px;
+	border-style: solid;
+	border-radius:20px ;
+	border-bottom-width: 15px;
+}
+
+#titleHome {
+    margin:0 auto;
+	text-align: center;
+	font-weight: bold;
+	color:#ffffff;
+	margin:2% 7%;
+    padding:2%;
+    font-size:60px;
+    background-color:#61a48a;
+    border-radius:10px;
+ }
+
+.sectionMissao{
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.frasePrincipalDois {
+	text-align: center;
+	text-indent: 25px;
+	line-height: 34px;
+	width: 420px;
+	height:420px;
+	margin:5%;
+    padding:20px;
+    font-size:30px;
+    border-color: #286181;
+	border-width:5px;
+	border-style: solid;
+	border-radius:20px ;
+	border-bottom-width: 15px;}
+
+#imagemEquipeHomeDois { 
+	width:100%;		
+}
+
+/* ### HOME VALORES  ### */
+
+.sectionVl{
+	display: flex;
+	justify-content: space-evenly;
+    margin-top: 0.1em;
+}
+#imgValores{
+	width:30%;
+}
+
+.titleVl {
+	font-size: 70px;
+	font-family: 'Montez', cursive;
+	color:teal;
+	font-weight: bold;
+}
+
+.menuValores{
+	margin: 1em 2em;
+	font-family: 'Assistant', cursive;
+}
+
+.ulLiValores { 
+	font-size: 35px;
+	color:#286181;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menuValores li:before {
+	content:"▶"; 
+	color:#286181;
+}
+
+
+/* ### HOME PILARES ### */
+.textMk {
+	margin: 0 5em;
+	text-align: center;
+	padding: 20px 10px;
+	font-size: 30px;
+}
+
+.pilarEng{
+	display: flex;
+	align-items: bottom;
+	margin:100px;
+}
+.imgPilar{
+	text-decoration: none;
+	color:#000000;
+	font-size:28px;
+	width: 100%;}
+
+.imgPilar:hover{
+	width: 110%;
+}
+
+
+.titlePilar{
+	text-align:center;
+	}
+
+
+.saiba{
+	margin-top: 2em;
+	width: 10em;
+	padding: 0.6em 0;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	border-radius: 5px;
+	background: #f2f2f2;
+	text-align: center;
+}
+
+.saiba:hover{
+	font-size: 22px;
+	background: #c0c0c0;
+}
+
+
+.mapa{
+	padding: 3em 0;
+	text-align: center;
+}
+
+/* ####### SERVIÇOS ####### SERVIÇOS ####### SERVIÇOS ####### SERVIÇOS ####### SERVIÇOS ####### */
+.menuServicos{
+	padding: 20px 5px;
+	margin-bottom: 5em;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap:10px;
+}
+
+.titleServicos { 
+	font-size:25px;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:30px;
+	font-family:eczar;
+}
+
+.imgServicos {
+	width: 60%;
+	position: center;
+	margin-bottom:20px;
+}	
+
+
+
+.liServicos{
+	width: 28%;
+	margin: 0.8em 0.5em;
+	background: #ffffff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 400px;
+	line-height: 25px;
+	padding:0.5em;
+	font-family: 'Assistant', cursive;
+	font-weight: bold;
+	box-shadow: 0px 0px 0.5em #177653;
+	border-color:#000000;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+.paragrafoServico{
+	font-size:20px;
+	font-weight:bold;
+	font-family:eczar;
+	margin-bottom:1em;
+}
+
+.aServico{
+	text-decoration: none;
+	color:#000000;
+}
+
+.paragrafoServico:hover{
+	font-size: 22px;
+}
+
+.liServicos:hover{
+	width:30%;
+	background-color: #f2f2f2;
+}
+
+/* ####### FERRAMENTA ####### FERRAMENTA ####### FERRAMENTA ####### FERRAMENTA  ####### FERRAMENTA ####### */
+
+.menuFerramenta{
+	padding: 20px 6px;
+	display: flex;
+	margin-bottom: 1em;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+.titleferramenta{
+	font-size: 20px;
+    font-weight: bold;
+    font-family: "Eczar" , cursive;
+}
+
+.liFerramenta {
+	width: 12%;
+	margin: 0.15em 0.5em;
+	background: #ffffff;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 25px;
+	padding:0.5em;
+	margin-bottom: 1em;
+	box-shadow: 0px 0px 0.2em teal;
+	-webkit-box-shadow: 0px 0px 0.2em teal;
+	-moz-box-shadow: 0px 0px 0.2em teal;
+	border-color:#000000;
+	border-style: solid;
+	border-width: 1.2px;
+	text-align: center;
+}
+
+.liFerramenta:hover{
+	width: 14%;
+	trasition:0.8s;
+	color:#000000;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.liFerramenta:hover{
+	background:#F0F8FF;
+	trasition:0.8s;
+	transform:scale(1);
+}
+
+.aFerramenta{
+	text-decoration: none;
+	color: #000000;
+}
+
+.aFerramenta:hover{
+	font-size: 20px;
+	trasition:0.8s;
+	transform:scale(1);	
+}
+
+.iconesfe{
+	width: 35%;
+	margin: 0;
+	padding:0.5em 0;
+}
+
+.emDesenvolvimento{
+	width:11.3%;
+	border-style: double;
+	border-radius: 3px;
+	border-width: 6px;
+	border-color: #FF5757;
+
+}
+#bannerNaFerramenta{
+	margin-left: 10%;
+}
+.paragrafoFerramenta{
+	font-size: 20px;
+	text-indent: 2em;
+	padding:0 1em 1em 2em;
+	line-height: 1.2em;
+}
+/* ####### ORÇAMENTO ####### ORÇAMENTO ####### ORÇAMENTO ####### ORÇAMENTO ####### ORÇAMENTO ####### */ 
+
+#titleForm{
+	margin:0;
+	padding: 0px;
+}
+
+.field {
+	margin-top: 13px;
+}
+
+#textarea {
+	margin-top: 20px;
+	display: block;
+	font-size: 20px;
+}
+
+#titleForm {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#imagemContato {
+	width:45%;
+	display: inline;
+	position:absolute;
+	right:0;
+}
+
+.labelOrcamento{
+	display: block;
+	font-size: 20px;
+	margin : 0 0 10px;
+	padding-left: 70px;
+}
+
+#textPro {
+    margin: 28px 15px 10px 0 ;
+    font-size: 21px;
+}
+
+#textPro:before {
+	content:"➥"
+}
+
+.inputPadrao {
+	display : block;
+	margin:0 0 15px 60px;
+	padding: 2px 20px;
+	width: 50%;
+	height: 30px;
+}
+
+#comentario { 
+	width: 50%;
+	height: 30%;
+}
+
+.marque {
+	margin:0 0 0 30px;
+	padding: 2px 60px;
+	font-size: 16px;
+}
+
+.submit {
+	margin:0 0 0 80px;
+	width:35%;
+	padding:15px 0;
+	margin-bottom: 2em;
+    background: #177653;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition:1s all;
+	cursor:pointer;
+}
+
+.submit:hover { 
+	background: yellow;
+	transform: scale(1.2);
+}
+
+/* ####### TIME ####### TIME ####### TIME ####### TIME ####### TIME ####### TIME ####### TIME #######*/
+.sectionTime{
+	margin: 2em 0;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+    align-items: center;
+}
+.divTime, .divForm{
+	padding: 1em 1em 1em 2.5em;
+	width: 40%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.fieldAtuacao{
+	font-size: 1.2em;
+	display: flex;
+	flex-direction:column;	
+
+}
+.submitAtuacao{
+	width: 20%;
+	padding: 0.2em;
+	font-size: 1em;
+	margin-top: 1em;
+}
+.submitAtuacao:hover{
+	width: 22%;
+}
+.marqueArea{
+	margin-left: 10px;
+}
+.titleAtuacao{
+	margin-bottom: 0.5em;
+}
+.listTime{
+	font-size: 1.2em;
+	list-style: disc;
+	list-style-position: inside;
+	text-align: left;
+	padding: 8px;
+	margin-left: 4em;
+	text-indent: 0.5em;
+}
+
+.titleTC{
+	font-size: 1.1em;
+	text-indent: 1em;
+	margin: 1em 0 ;
+}
+.imgPagTime{
+	width: 10%;
+
+}
+/* ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### */
+
+footer img {width:15%;}
+
+footer { 
+	width: 99.2%;
+	margin: 0 auto;
+    background: #61a48a;		
+    padding : 0 5px;
+    display: grid;
+    justify-items: center;
+    justify-content: space-evenly;en;
+}
+	     
+footer p {
+	padding: 18px;
+}
+
+#copy {
+	color:#ffffff;
+}
+
+#endereco {
+	width: 15%;
+	color:#ffffff;
+	text-align: center;
+}
+		    
+.icones {
+	width:2%;
+	text-decoration: none;
+}
+
+.icones:hover{
+	width:2.5%;
+}
+
+.copyright {
+	color:#ffffff;
+	font-size: 16px;
+	margin:20px 0 0 ;
+}
+footer ul {
+	list-style: none;
+	text-align: center;
+	margin-top:1em;
+}
+
+footer li {
+	display: inline;
+	margin:0 0 0 15px;
+}
+		  
+
+/* ####### PÁGINA DE  VALORES ######## PÁGINA DE  VALORES ######## PÁGINA DE  VALORES ######## */
+
+.sectionValores{
+	width: 95%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paragrafoValores{
+	font-size: 15px;
+}
+
+.navValor:hover{
+	font-size: 22px;
+	background: #f2f2f2;
+}
+
+.articleValor{
+	width: 95%;
+	margin-left: 50px;
+}
+.styleBox{
+	width: 16%;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+    font-size:16px;
+	line-height: 1.2em;
+	border-width: 1px;
+	border-color: #177653;
+	border-style: solid;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.5em #808080;
+}
+.styleBox:hover{
+	width: 18%;
+	background: #f2f2f2;
+}
+.titleBox{
+	font-size: 20px;
+    font-weight: bold;
+    font-family: "Eczar" , cursive;
+    padding:1em 0 1em 0;
+}
+.imgValores{
+	width:60%;
+	padding:1em;
+}
+.hasteg{
+	padding-bottom: 1em;
+	color:#191970;
+}
+
+.textValores {
+	font-size:1.5em;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    line-height: 1.4;
+    text-indent: 40px;
+    padding-left: 60px;
+    padding-right: 100px;   
+}
+.fraseRespo{
+	padding-bottom: 1em;
+}
+
+.modalDialog{
+	margin-top: 1em;
+	position:fixed;
+	color:teal;
+	width: 90%;
+	display: none;
+	text-indent: 1.5em;
+	margin-bottom: 1em;
+}
+
+.modalDialog:target{
+	display: block;
+	opacity: 1;
+	pointer-events:auto;
+}
+
+.modalDialog{
+	position: relative;
+	margin: 1% auto;
+	padding: 30px;
+	width: 90%;
+	height:60%;
+	border-radius: 5px;
+	background: #F5FFFA;
+}
+.close1{
+	text-decoration: none;
+	font-size: 1em;
+	position:relative;
+	left:95.5%;
+	top:-25px;
+	background-color: teal;
+	padding: 0 0.5em;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 10px 0 10px  0 ;
+}
+.close1:hover{
+	font-size: 1.2em;
+	border-radius: 10px 0 10px  0 ;
+	background:#286181;
+}
+
+/* ####### PAGINA PILARES ####### PAGINA PILARES ####### PAGINA PILARES  ####### PAGINA PILARES ####### */
+	
+
+.styleBoxPilares{
+	width: 20%;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+    font-size:16px;
+	line-height: 1.2em;
+	border-width: 1px;
+	border-color: #177653;
+	border-style: solid;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.5em #808080;
+}
+.styleBoxPilares:hover{
+	width: 22%;
+	background: #f2f2f2;
+}
+
+
+/* ####### SERVIÇO DE BANCO DE DADOS ####### SERVIÇO DE BANCO DE DADOS ####### SERVIÇO DE BANCO DE DADOS */
+.sectionPreco{
+	display: flex;
+	justify-content: space-evenly;
+}
+.divPreco{
+	color:#ffffff;
+	background: #000000;
+	width: 28%;
+	box-shadow: 0px 0px 2em #ffdb15;
+	border-color:#ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.divPreco:hover{
+	width: 32%;
+}
+
+.aPreco{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.paragrafoPreco{
+	margin-bottom: 10px;
+	margin-left: 35px;
+	text-align: center;
+	line-height: 20px;
+	width: 80%;
+	font-size: 18px;
+	border-color:#c29e5b;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+}
+
+#imgPreco{
+	width: 22%;
+	margin: 0.5em;
+}
+
+.listPreco{
+	font-size: 16px;
+	font-family: 'Assistant', cursive;
+	list-style-type: disc;
+	list-style-position: inside;
+	text-align: left;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.paragrafoAgende{
+	font-size: 26px;
+	padding: 1.5em;
+	color:#ffdb15;
+	animation: animate 1.5s linear infinite;
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 0.7;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
+
+.fundoAzul{
+	background: #FFFFE0;
+	width:90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	padding: 1em;
+}
+
+.sectionVantagem{
+	margin: 40px;
+	margin-left: 50px;
+	width: 90%;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 1.3em;
+	text-indent: 25px;
+}
+
+
+
+/* ####### SERVIÇO DE ASSESSORIA ####### SERVIÇO DE ASSESSORIA ####### SERVIÇO DE ASSESSORIA ####### */
+
+.sectionAssessoria{
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+}
+
+ .liServicosAssessoria{
+	width: 30%;
+	margin: 0.5em 0.5em;
+	background: #ffffff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 400px;
+	line-height: 25px;
+	padding:0.5em;
+	font-family: 'Assistant', cursive;
+	font-weight: bold;
+	box-shadow: 0px 0px 0.5em #177653;
+	border-color:#000000;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+.imgAssessoria{
+	width: 70%;
+	padding:1em;
+}
+.paragrafoAgendeAssessoria{
+	font-size: 35px;
+	padding: 1em;
+	color:#ffffff;
+	background: #286181;
+	border-radius: 2em;
+	animation: animate 1.5s linear infinite;
+ }
+
+ .divAssessoria{
+	display: grid;
+} 
+
+.titleAssessoria{
+	font-family: montez;
+	padding: 0.5em 0;
+	font-size: 2em;
+	margin-bottom: 0.7em;
+}
+
+.liAssessoria{
+	font-weight: bold;
+	width: 92%;
+	padding: 0.8em;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+	border-radius: 1em;
+	box-shadow: 0px 0px 0.3em #286181;
+	border-color:#177653;
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+}
+.liValor{
+	background: #286181;
+	line-height: 0.5em;
+	text-transform: uppercase;
+	font-size: 20px;
+	color:#ffffff;
+	animation: animate 0.5s linear infinite;
+}
+.liAssessoria:hover{
+	width: 95%;
+	background: #f2f2f2;
+}
+.liValor:hover{
+	background: #286181;
+	animation: none;
+}
+
+/* ######## FUNÇÕES DE ASSESSORIA ####### FUNÇÕES DE ASSESSORIA ####### FUNÇÕES DE ASSESSORIA ####### */
+
+.titleFuncao{
+	padding: 0.2em 0;
+	font-size:24px;
+	font-weight: bold;
+
+}
+.pFuncao{
+	padding: 0.2em 0;
+}
+
+.list{
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.funcaoAssessoria{
+	position: relative;
+	left:10%;
+	width: 60%;
+	margin:2em;
+	padding: 1em 5em;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.2em;
+	background: #FFFFE0;
+	border-radius: 1em;
+}
+.close {
+	text-decoration: none;
+	font-size: 1.2em;
+	position:relative;
+	left:95%;
+	background-color: teal;
+	padding: 0.3em;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 0 20px   0 20px   ;
+}
+
+.close:hover{
+	background-color: #5b0909;}
+
+#closeDesenvolvimento{
+	position: absolute;
+	font-size: 25px;
+	right: 2%;
+	top:2%;
+}
+.listDentro{
+	margin-left: 2em;
+	list-style-type: circle;
+}
+
+.liValorEng{
+	color:#ffffff;
+	font-size: 1.2em;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 1em;
+	background: #286181;
+	line-height: 0.5em;
+	animation: animate 0.5s linear infinite;
+}
+#closeValorAss{
+	position: relative;
+	left:48.3%;
+}
+
+/* ######## PESQUISA DE MERCADO ####### PESQUISA DE MERCADO ####### PESQUISA DE MERCADO ####### */
+
+.pPesquisaMercado{
+	font-family: eczar;
+	font-size:1.2em;
+	line-height: 1.2em;
+	text-indent: 1.5em;
+
+}
+
+/* ######## CONSULTORIA DE PRODUÇÃO ######## CONSULTORIA DE PRODUÇÃO ######## CONSULTORIA DE PRODUÇÃO ########*/
+
+.consultoria{
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+    justify-content: space-around;
+}
+
+.divConsultoria{
+	width: 50%;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.pConsultoria{
+	width: 100%;
+	font-size: 18px;
+	padding: 1em 0 0.2em 0;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+
+/* ####### FORMULÁRIO SERVIÇOS ####### FORMULÁRIO SERVIÇOS ####### FORMULÁRIO SERVIÇOS ####### */
+
+.formLivre{
+	font-size: 1.2em;
+	background: #e1e6ff26;
+	padding: 1em;
+	width:60%;
+	margin: 4% 20%;
+	border-style:solid;
+	border-width: 1px;
+	border-color: #191970;
+	border-radius: 2px;
+}
+.formServico{
+	font-size: 1em;
+	display: flex;
+	flex-direction:row;
+	margin-bottom: 0.8em;
+	width: 400px;
+	height: 22px;	
+}
+.enviarForm{
+	font-size: 18px;
+	background: #3e6077ad;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+#closeFormProducao{
+	position: relative;
+	left: 97%;
+}
+
+/* ####### CONSULTORIA DE VENDAS ####### CONSULTORIA DE VENDAS ####### CONSULTORIA DE VENDAS ####### */
+.bannerVenda{
+	position: relative;
+	bottom: 65px;
+	left: 350px;
+	color:#ffffff;
+	padding: 0.8em;
+	width: 250px;
+	border-radius: 5px;
+	
+}
+.bannerVenda1{
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+/* ####### IMPLEMENTAR FERRAMENTAS ####### IMPLEMENTAR FERRAMENTAS ####### IMPLEMENTAR FERRAMENTAS ####### */
+.bannerFerramenta{
+	position: relative;
+	font-size: 13px;
+	bottom: 65px;
+	left: 50px;
+	color:#ffffff;
+	padding: 0.8em;
+	width: 475px;
+	border-radius: 5px;
+}
+.marqueFerramenta{
+	font-size: 16px;
+    color: #ffffff;
+    padding: 1em;
+    width: 15%;
+    margin: 2% 0;
+    background: #177653;
+    border-radius:2px;
+}
+
+.marqueFerramenta{
+	width: 60%;
+	margin:5px;
+	font-size: 18px;
+	animation: animate 1.5s linear infinite;
+}
+.Fieldset2{
+	display: flex;
+	flex-direction:row;
+}
+#inputPlano{
+	font-size: 50px;
+}
+#Fieldset1{
+	display: flex;
+	flex-direction:column;
+	align-items: flex-end;
+	margin-right: 50%;
+}
+
+/* ####### JAVA ####### JAVA ####### JAVA ####### JAVA ####### JAVA ####### */
+.oiVisitante{
+	font-weight: bold;
+	color:#177653;
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    
+    .cabecalhoPricipal .caixaTop {
+	    width: auto;
+		display: flex;
+		flex-direction: column;
+	    align-items: center;
+	    border:none;
+	}
+	#logoTopSite{
+		border-color:teal;
+		border-width:4px;
+		border-style: solid;
+		border-radius:10px;
+
+	}
+	#logoTopSite {
+		width: 105%;
+	}
+	.navCabecalho{
+		width: auto;
+	} 
+	.aNavCabecalho{
+		font-size: 12px;
+	}
+	.liNavCAbecalho{
+		padding: 0 5px;
+	}
+	.logoRight{
+		width: 320px;
+		padding: 0;
+	}
+	.bannerEngReTec{
+		width: auto;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	#imgHome{
+		width:100%;
+	}
+	.menuEngReTec {
+		width: 100%;
+	}
+	.linhaEngReTec{
+		width: auto;
+		margin:0;
+		padding:12px 10px;
+		text-align: center;
+	}
+	#imagemEquipeHome{
+		display: none;
+	}
+	#titleHome{
+		width: auto;
+		font-size: 35px;
+		margin-top: 2em;
+	}
+	.frasePrincipal{
+		width: auto;
+		height: 650px;
+		text-align: center;
+		margin:0 5px;
+	}
+	.sectionMissao{
+		display: flex;
+    	margin: 50px 0;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	.frasePrincipalDois{
+		width: auto;
+		height: 650px;
+	}
+	.sectionVl {
+    display: flex;
+    margin-top: 2.1em;
+    flex-direction: column;
+    align-items: center;
+	}
+	.titleVl{
+		font-size: 65px;
+		margin-top: 0;
+	}
+	#imgValores{
+		width: 60%;
+	}
+	.textMk{
+		width: 90%;
+		margin:0;
+	}
+	.pilarEng {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    flex-direction: column-reverse;
+	}
+	.imgPilar{
+		width: 100%;
+		padding-bottom: 2em;
+	}
+	#mapaMobile{
+		width: auto;
+	}
+	footer{
+		width: auto;
+	}
+	#endereco{
+		width: auto;
+	}
+	.icones{
+		width: 15%;
+	}
+	#rosaceaFooter{
+		width: 50%;
+	}
+	.titlePadraoCanto{
+		width: 340px;
+		margin:0.2em;
+		padding-right: 0;
+	}
+	.menuServicos{
+		display: flex;
+		flex-direction:column;	
+	}
+	.liServicos{
+		width: 90%;
+		margin: 0;
+		margin-left: 7px;
+	}
+	.titleServicos {
+    	font-size: 19px;
+	}
+	.menuFerramenta{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.liFerramenta{
+		width: 90%;
+	}
+	.voltar{
+		left:22%;
+	}
+	header p{
+		padding: 0;
+	}
+	h6 , h3{
+		font-size:23px;
+	}
+	.iconesfe{
+		width: 20%;
+	}
+	#textPro{
+		width: auto;
+		margin: 0;
+		padding-left: 0;
+		padding-top: 0em;
+		font-size: 22px;
+	}
+	#imagemContato{
+		position: relative;
+		width: 75%;
+		left:15%;
+	}
+	.inputPadrao{
+		width: 75%;
+		margin-left: 1em;
+	}
+	legend, fieldset {
+		padding-left: 2em;
+	}
+	#textarea{
+		margin-top:30px;
+	}
+	#comentario{
+		width: 90%;
+		height: 16%;
+	}
+	.aceite{
+		width: 60%;
+		margin:0;
+		}
+	.marque{
+		margin:0;
+	}
+	#submitAceite{
+		width: 60%;
+	}
+	.submit{
+		width: 90%;
+		margin:2.2em;
+	}
+	#fotoCeo{
+		width: 20%;
+	}
+	.textCeo{
+		width: 350px;
+	}
+	.voltarEng{
+		position:relative;
+		left:31%;
+	}
+	#navValores{
+		display: flex;
+		flex-direction:column;
+	}
+	.navValor{
+		width: auto;
+	}
+	.titlePadraoCanto{
+		width: auto;
+	}
+	.fraseRespo{
+		width: auto;
+		margin: 0;
+		padding:1em;
+	}
+	.textFerramentas{
+		width: auto;
+		margin: 0;
+	}
+	#submitAceite {
+    	margin: 20px 75px 20px;
+	}
+    .menuFerramenta {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.liPilares {
+    width: 73%;
+	}
+	.paragrafoFerramentas{
+		padding: 1em;
+	}
+	.sectionPreco {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.divPreco{
+		width: 95%;
+	}
+	.sectionVantagem{
+		margin: 0;
+
+	}
+	.fundoAzul{
+		width: auto;
+	}
+	.Swot {
+    padding-left: 0; 
+    margin: 0;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+	.textinsideList {
+		padding: 0;
+	}
+	.list {
+		margin-left: 0;
+	}
+	.sectionAssessoria{
+		flex-direction:column;
+	}
+	.liServicosAssessoria{
+		width: 95%;
+	}
+	.tableValue {
+		width: 157%;
+		margin-left: 1%;
+	}
+	.funcaoAssessoria{
+		left: -11%;
+		width: 98%;
+		padding: 2em 2em;
+	}
+	.textDesenvolvimento{
+		width: 109%;
+		margin: 2em 0em 0 0em;
+		font-size: 22px;
+	}
